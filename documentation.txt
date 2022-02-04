@@ -1,0 +1,11 @@
+!!! Easy way to check TikTok username availability.
+-----
+
+GET  https://tiktok-user-api.herokuapp.com/available/<name>
+
+RESPONSE:
+{
+  "available": "true" [OR] "false"
+}
+
+-----
